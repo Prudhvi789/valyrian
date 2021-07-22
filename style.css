@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&family=Parisienne&family=Raleway&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputArea{
+    margin: 0px;
+    width: 60%;
+    height: 6rem;
+    font-size: xx-large;
+    font-family: parisienne;
+}
+
+.outputArea{
+    border: 1px solid black;
+    width: 60%;
+    height: 6rem;
+    background: whitesmoke;
+    font-size: xx-large;
+    font-family: parisienne;
+}
+
+.about{
+    width: 50%;
+    margin-top: 25px;
+    font-size: x-large;
+    font-family: Oswald;
+}
+
+body{
+    background: linear-gradient(to right, #a60606, #f2a905,#a60606);
+    margin: 0;
+}
+
+button{
+    margin: 10px;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+    background: black;
+    border: transparent;
+    border-radius: 10px;
+}
+
+h1{
+    display: flex;
+    background: #000000;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 0;
+    padding: 1rem;
+    text-align: center;
+    font-family: parisienne;
+    font-size: 64px;
+}
